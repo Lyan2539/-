@@ -16,7 +16,7 @@ namespace DiaryWeb
         {
             context.Response.ContentType = "text/html";
             // read the path of tamplet file
-            string filePath = context.Request.MapPath("Diary.html");
+            string filePath = context.Request.MapPath("SettingPage.html");
             // read the file
             string fileContent = File.ReadAllText(filePath);
         }

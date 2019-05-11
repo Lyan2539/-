@@ -1,0 +1,92 @@
+﻿
+.box
+{
+    height: 200px;
+    background-image: url("spring2.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.wrd {
+    display: block;
+    color: pink;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nav {
+    height: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: Cambria;
+    font-size: medium;
+    color: forestgreen;
+}
+
+a:hover {
+        color: red;
+    }
+
+.inputitle{
+    font-family: 'Ink Free';
+    font-size:30px;
+    color:orangered;
+    font-weight:900;
+}
+
+.diary {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.setbox1 {
+    width: 800px;
+    height: 120px;
+    margin: 0 auto;
+}
+.setbox2 {
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+
+.sele{
+    position:absolute;
+    left:280px;
+    bottom:40px;
+}
+
+.btn {
+    position: absolute;
+    right: 280px;
+    bottom: 40px;
+}
+.regt {
+    position: absolute;
+    left: 350px;
+    bottom: -140px;
+}
+.ssav {
+    position: absolute;
+    right: 350px;
+    bottom: -140px;
+}
+
+.edt {
+    position: absolute;
+    right:360px;
+    top:330px;
+}
+
+.day{
+    position:absolute;
+    right:280px;
+    top:250px;
+}
